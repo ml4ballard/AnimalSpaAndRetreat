@@ -22,6 +22,7 @@ public class AnimalRetreatApp {
 		AnimalRetreat retreat = new AnimalRetreat("Fred the Attendant");
 		
 	    boolean moreAnimals = true;
+	    int totalAnimals = 0;
 	    
 	    while (moreAnimals) {
 	      System.out.println();
@@ -40,16 +41,23 @@ public class AnimalRetreatApp {
 	      
 	      switch (selection) {
 	      case "1" :
-	    	  System.out.println("we are in case 1");
+	    	  System.out.println("List all the animals");
 	    	  break;
 	      case "2": 
-	    	  System.out.println("we are in case 2");
+	    	  System.out.println("Add an animal");
+//check the rooms for an opening - get room number total number of rooms
+	    	  
+//get the animal name and create a room
+	    	  AnimalRoom 
+	    	
+	    	  Giraffe giffe = new Giraffe("George");
+	    	  
 	    	  break;
 	      case "3": 
-	    	  System.out.println("we are in case 3");
+	    	  System.out.println("start atttending rounds");
 	    	  break;
 	      case "4":
-	    	  System.out.println("we are in case 4 say good night");
+	    	  System.out.println("Close inn for the night");
 	    	  moreAnimals = false;
 	    	  break;
 	      default:
