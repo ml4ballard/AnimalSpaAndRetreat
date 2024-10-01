@@ -1,11 +1,10 @@
 package com.skilldistillery.spa.app;
 
+import com.skilldistillery.spa.entities.Hippo;
 import com.skilldistillery.spa.entities.AnimalRetreat;
-import com.skilldistillery.spa.entities.AnimalRoom;
 import com.skilldistillery.spa.entities.Giraffe;
 
 import java.util.Scanner;
-
 public class AnimalRetreatApp {
 
 	public static void main(String[] args) {
@@ -23,6 +22,7 @@ public class AnimalRetreatApp {
 		
 	    boolean moreAnimals = true;
 	    int totalAnimals = 0;
+	    int whichAnmial = 1;
 	    
 	    while (moreAnimals) {
 	      System.out.println();
@@ -47,8 +47,10 @@ public class AnimalRetreatApp {
 	    	  System.out.println("Add an animal");
 //check the rooms for an opening - get room number total number of rooms
 	    	  
-//get the animal name and create a room
-	    	  AnimalRoom 
+//get the animal name and create a room, can I create a variable
+// put two together roomNum = 
+	    	  
+//	    	  AnimalRoom 
 	    	
 	    	  Giraffe giffe = new Giraffe("George");
 	    	  
