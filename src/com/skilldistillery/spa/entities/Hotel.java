@@ -2,15 +2,14 @@ package com.skilldistillery.spa.entities;
 
 import java.util.Arrays;
 
-public class Retreat {
+public class Hotel {
 	private Room[] rooms; // An array of rooms, rooms are not strings, they have characteristics
 
-	public Retreat() {
-	} // public no arg constructor
-
-	public Retreat(Room[] rooms) {
-		this.rooms = rooms;
-
+	public Hotel() { // public no arg constructor
+		rooms = new Room[10];
+		
+// I only want 10 rooms, not being very flexible, that is okay in this instance,
+// at least for me
 	}
 
 //Generate the getters and setters
@@ -21,8 +20,8 @@ public class Retreat {
 	public void setRooms(Room[] rooms) {
 		this.rooms = rooms;
 	}
-	
-//Generate the hash code equals
+
+//Generate the hash code equals	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -39,14 +38,14 @@ public class Retreat {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Retreat other = (Retreat) obj;
+		Hotel other = (Hotel) obj;
 		return Arrays.equals(rooms, other.rooms);
 	}
-	
-//Generate the toString
+
+//Generate the toString	
 	@Override
 	public String toString() {
-		return "Retreat [rooms=" + Arrays.toString(rooms) + "]";
+		return "Hotel [rooms=" + Arrays.toString(rooms) + "]";
 	}
 
 }

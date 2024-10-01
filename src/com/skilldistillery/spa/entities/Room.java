@@ -2,7 +2,7 @@ package com.skilldistillery.spa.entities;
 
 import java.util.Objects;
 
-public class Room {   //What the heck this is
+public class Room {   
 	private int creatureSize; //How big is the animal asking to stay here
 	private int roomCapacity; //How large can an animal can be in this room
 	
